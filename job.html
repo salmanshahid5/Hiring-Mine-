@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="job.css">
+        <link rel="icon" href="images/favicon-32x32.png">
+        <title>Hiring Mine</title>
+    </head>
+</head>
+
+<body>
+    <header class="header_wrraper">
+        <div class="logo">
+            <img src="images/logo.png" alt="Hiring Mine Logo">
+        </div>
+        <div class="inputJob">
+            <span>Job</span>
+            <input type="text" id="searchBox" placeholder="Search job title or companies">
+            <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="button_mode">
+            <input type="checkbox" id="darkmode-toggle">
+            <label for="darkmode-toggle"></label>
+        </div>
+    </header>
+    <div class="mainCategory">
+
+        <div class="category">
+            <select>
+                <option selected disabled>Category</option>
+                <option>Development</option>
+                <option>Marketing & Sales</option>
+                <option>Art & Illustration</option>
+
+            </select>
+        </div>
+
+        <div class="category">
+            <select>
+                <option selected disabled>Date Posted</option>
+                <option>Any Time</option>
+                <option>1 Month</option>
+                <option>Last 7 days</option>
+                <option>Past 24 Hours</option>
+
+            </select>
+        </div>
+
+        <div class="category">
+            <select>
+                <option selected disabled>Job Type</option>
+                <option>Full Time</option>
+                <option>Part Time</option>
+                <option>Contract</option>
+
+            </select>
+        </div>
+
+        <div class="category">
+            <select>
+                <option selected disabled>Seniority Level</option>
+                <option>Senior-Level</option>
+                <option>Mid-Level</option>
+                <option>Internship</option>
+                <option>Fresher</option>
+
+            </select>
+        </div>
+
+        <div class="category">
+            <select>
+                <option selected disabled>on-Site/Remote</option>
+                <option>On-Site</option>
+                <option>Remote</option>
+                <option>Hybrid</option>
+
+            </select>
+        </div>
+
+        <div class="category">
+            <select>
+                <option selected disabled>Salary Range</option>
+                <option>0-20000 PKR</option>
+                <option>20000-50000 PKR</option>
+                <option>50000-100000 PKR</option>
+
+            </select>
+        </div>
+
+        <div class="category">
+            <select>
+                <option selected disabled>Experience</option>
+                <option>0-1 years</option>
+                <option>1-2 Years</option>
+                <option>2-4 Years</option>
+                <option>4-6 Years</option>
+
+
+            </select>
+        </div>
+    </div>
+
+    <main>
+        <div class="row">
+        <div class="jobCard">
+            <div class="job">
+                <div class="jobDetail1">
+                    <h5>Codesy Consulting</h5>
+                    <span>WordPress Developer (E-commerce Migration)</span>
+                    <p class="color">RS120000 - 250000</p>
+                </div>
+                <div class="jobImage">
+                    <img src="images/icon.png" alt="">
+                </div>
+            </div>
+            <div class="jobMonth">
+                <div class="month">
+                    <p>Karachi , Pakistan</p>
+                </div>
+                <div class="view">
+                    <p>140 views</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+
+    <script src="job.js"></script>
+</body>
+
+</html>
