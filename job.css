@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -10,10 +10,12 @@ header {
     justify-content: space-between;
     padding: 10px 20px;
 }
-.header_wrraper{
-    padding-left: 200px;
-    padding-right: 200px;
+
+.header_wrraper {
+    padding-left: 150px;
+    padding-right: 150px;
 }
+
 .logo img {
     height: 40px;
 }
@@ -113,24 +115,57 @@ option {
     gap: 10px;
     overflow-x: auto;
     white-space: nowrap;
-    /* padding-bottom: 10px; */
+    padding-bottom: 10px;
     padding-left: 200px;
     padding-right: 200px;
+
 }
 
 main {
     /* padding: 20px; */
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#job {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Space between cards */
+    padding: 20px;
 }
 
 .jobCard {
-    margin-top: 10px;
     background-color: #ffffff;
-    box-shadow: 0 6px 12px #0000001a;
-    padding: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(50% - 20px);
+    display: flex;
+    /* height: 230px; */
+    flex-direction: column;
     margin-top: 20px;
-    flex: 1 1 calc(50% - 20px);
+    padding: 15px;
 }
 
 .job {

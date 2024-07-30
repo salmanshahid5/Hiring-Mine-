@@ -661,3 +661,43 @@ width: 0%;
 .policy a:hover{
     text-decoration: underline;
 }
+
+#job {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.jobCard {
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1;
+    min-width: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobImage img {
+    width: 50px;
+    height: auto;
+}
+
+.jobMonth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.salary {
+    color: rgb(104, 81, 255);
+}
